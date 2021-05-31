@@ -1,0 +1,45 @@
+.todo__form {
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* justify-content: center; */
+    /* padding: 10px; */
+}
+
+.todo__form input {
+    padding: 10px;
+    /* width: 100%; */
+    margin-bottom: 10px;
+}
+
+.todo__form textarea {
+    height: 90px;
+    padding: 10px;
+    /* width: 100%; */
+    /* margin-bottom: 10px; */
+}
+
+.todo__addTask {
+    font-size: 21;
+    font-weight: bold;
+    /* font-weight: 600; */
+    /* letter-spacing: 0.2em; */
+    margin-bottom: 20px;
+    /* border-bottom: 1px solid gray; */
+}
+
+.todo__button {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5px;
+    /* margin-bottom: 5px; */
+    /* border-top: 1px solid gray; */
+}
+
+/*Make label bold
+
+Give spacing between label and field
+
+Make Header Edit/Add Task bold  */

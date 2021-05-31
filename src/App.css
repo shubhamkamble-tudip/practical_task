@@ -1,38 +1,188 @@
-.App {
-  text-align: center;
+*{
+  margin: 0 4px 0px 6px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__top {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  /* margin: 10px; */
+  margin: 10px 10px -25px 10px;
+  /* border-bottom: 1px solid whitesmoke; */
+}
+
+.app__top > h1 {
+  font-weight: 500;
+  /* letter-spacing: 3.5px; */
+}
+
+.app__middle {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  /* flex-flow: row; */
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  /* border-bottom: 1px solid whitesmoke; */
+  /* box-shadow: 0px 1.5px 1px 0px; */
+  /* background-color: whitesmoke; */
+}
+
+.app__middle input {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+/* .app__middle:hover {
+  cursor: pointer;
+  
+  background-color: whitesmoke;
+} */
+
+/* .app__middle input {
+  width: 100%;
+  height: 12px;
+  border: none;
+  display: flex;
+  flex: 1;
+  padding: 10px;
+} */
+
+/* .app__bottom > table {
+  width: 100%;
+  table-layout: fixed;
+} */
+
+/* .app__bottom > table tr th {
+  text-align: left;
+  background: rgb(57, 148, 223);
   color: white;
+} */
+
+/* .app__bottom {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+} */
+
+.app__status {
+  /* display: flex; */
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-evenly;
+  /* letter-spacing: 0.2em; */
 }
 
-.App-link {
-  color: #61dafb;
+.app__status a {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__searchIcon {
+  display: flex;
+  width: 100%;
+  height: 15px;
+  margin-left: 30px;
+  color: gray;
+  align-items: center;
 }
+
+.app__datePriority {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-bottom: 10px;
+}
+
+.app__searchDesign{
+  width: 100%;
+  /* for search input */
+}
+
+.priority__select {
+  display: flex;
+  width: 50%;
+  /* height: 100%; */
+}
+
+.app__select {
+  width: 280%;
+  padding: 10px;
+  border:1px solid gray;
+  border-radius: 5px;
+}
+
+.app__selectModal {
+  padding: 10px;
+  border:1px solid gray;
+  border-radius: 5px;
+}
+
+.modalText__style {
+  margin-bottom: 10px;
+  /* font-weight: bold; */
+}
+
+.some__spacing {
+  margin-top: 10px;
+}
+
+input{
+  border:1px solid gray;
+  border-radius: 5px;
+}
+
+textarea {
+  border:1px solid gray;
+  border-radius: 5px;
+}
+
+/* .desc__space {
+ 
+} */
+
+.datePriority__spacing {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.group__by {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: 600;
+}
+
+.app__redesignGroupAndSearch {
+  display: flex;
+  margin-left: 20px;
+}
+
+.app__groupBy {
+  margin-right: 14%;
+  width: 10%;
+  /* margin-right: 192px; */
+}
+
+.app__tableData {
+  margin-bottom: 12px;
+}
+
+
+
+
+
+
+/*Make label bold
+
+Give spacing between label and field
+
+Make Header Edit/Add Task bold  */

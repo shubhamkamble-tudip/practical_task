@@ -1,0 +1,122 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    /* border: 2px solid purple; */
+    /* font-size: 16px; */
+    text-transform: capitalize;
+}
+
+td {
+    vertical-align: top;
+}
+
+table, th, td {
+    border: 1.5px solid darkgrey;
+}
+
+thead, th:nth-child(1) {
+    /* width: 15%; */
+    width: 20%;
+}
+
+thead, th:nth-child(2) {
+    /* width: 25%;  */
+    width: 20%;
+    /* chack again width: 25 fro child 2 */
+}
+
+thead, th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 15%;
+}
+
+th, td {
+    /* padding: 5px; */
+    padding: 2px;
+}
+
+th {
+    /* padding: 5px; */
+    font-weight: 400;
+    text-align: left;
+}
+
+/* tbody tr:nth-child(even) {
+    
+    background-color: whitesmoke;
+} */
+
+/* style for buttun */
+.MuiButton-text Button{
+    padding: 4px 15px;
+}
+
+/* styling for api data */
+.api__dataFetching {
+    margin-top: 30px;
+}
+
+.redux__getData {
+    margin-top: 30px;
+}
+
+span{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .paginationItem {
+    background: #fff;
+    border: 2px solid #666;
+    padding: 10px 15px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    position: relative;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .paginationItem span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .prev,
+  .next {
+    background: #fff;
+    border: none;
+    padding: 10px;
+    color: blue;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .paginationItem.active {
+    border: 1px solid #888;
+    color: #888;
+    pointer-events: none;
+  }
+  
+  .prev.disabled,
+  .next.disabled {
+    pointer-events: none;
+    box-shadow: none;
+    color: #999;
+  }
+*/
